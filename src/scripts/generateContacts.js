@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { createFakeContact } from './utils/createFakeContact.js'; 
+import { createFakeContact } from '../utils/createFakeContact.js'; 
 import { PATH_DB } from '../constants/contacts.js';
 
 const generateContacts = async (number) => {
