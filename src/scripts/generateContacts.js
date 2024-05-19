@@ -1,4 +1,4 @@
-import fs from 'fs';
+import fs from 'fs/promises';
 import { createFakeContact } from '../utils/createFakeContact.js'; 
 import { PATH_DB } from '../constants/contacts.js';
 
